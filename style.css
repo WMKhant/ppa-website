@@ -1,0 +1,188 @@
+/* Author : Wai Min Khant */
+
+body {
+background-color: #EEE8AA;
+font-family: georgia, arial, serif;
+font-size: 12pt;
+text-align: justify;
+height: 800px ;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+left : 0px ;
+right : 0px ;
+top : 0px ; 
+bottom : 0px ;
+}
+
+header {
+background: none;
+height: 250px;
+width: 400px;
+margin-left: 20px;
+float: left;
+}
+
+a:link {
+color: #FCD116;
+text-decoration: none;
+}
+
+a:hover, a:focus {
+text-decoration: underline;
+color: #FEE5AC;
+}
+
+a:visited {
+color: #FCD116;
+text-decoration: none;
+}
+
+#menu {
+background: none;
+height: 230px;
+margin-left: 460px;
+margin-right: 20px;
+}
+
+#menu nav{
+background: rgba(0, 0, 0, 0.6);
+border-radius: 10px;
+color: #FCD116;
+height: 41px;
+width: 420px;
+margin-top: 20px;
+float: left;
+}
+
+#menu table {
+width: 400px;
+padding: 3px;
+text-align: center;
+}
+
+span {
+font-size: 10px;
+}
+
+.dropbtn {
+background: rgba(0, 0, 0, 0); 
+color: #FCD116;
+font-size: 16px;
+border: none;
+cursor: pointer;
+width: 110px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+background: gray;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+background: rgba(0, 0, 0, 0.6);
+position: absolute;
+min-width: 100px;
+height: 80px;
+display: none;
+}
+
+.dropdown-content a {
+padding: 10px 14px;
+display:block;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown-content a:hover {background: gray}
+
+.show {display: block;}
+
+#menu td {
+padding: 3px;
+width: 110px;
+}
+
+figure {
+height: 40px;
+width: 40px;
+padding-top: 20px;
+margin-left: 440px;
+}
+
+#img_container {
+margin-left: 50px;
+margin-top: 5px;
+}
+
+#content {
+clear: both;
+background: rgba(0, 0, 0, 0.6);
+color: white;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 60px;
+padding: 20px 40px 20px 40px;
+height: 400px;
+border-radius: 15px;
+}
+
+#swap {
+position: relative;
+height: 100px;
+width: 100px;
+margin-left: 10px;
+}
+
+#swap img{
+position: absolute;
+left:0;
+-webkit-transition: opacity 0.5s ease-in-out;
+-moz-trasition: opacity 0.5s ease-in-out;
+-o-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+}
+
+#swap img.top:hover {
+opacity: 0;
+}
+
+#swap p{
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
+footer {
+clear: both;
+background: rgba(0, 0, 0, 0.6);
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+height: 70px;
+color: white;
+border-radius: 15px 15px 0px 0px;
+}
+
+#leftFooter {
+height: 70px;
+width: 500px;
+padding-left: 20px;
+font-size: 10pt;
+float: left;
+}
+
+#footNav {
+padding-top: 20px;
+font-size: 12pt;
+}
+
+#footNav table {
+width: 300px;
+text-align: center;
+}
